@@ -588,6 +588,10 @@ video {
   inset: 0px;
 }
 
+.top-\[50px\] {
+  top: 50px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1173,10 +1177,9 @@ video {
 .open{
   transform: rotate(90deg);
   transform: translateY(0px);
-  position: fixed;
-  top: 50px;
-  right: 25px
-    ;
+  /* position: fixed;
+    top: 50px;
+    right: 25px; */
 }
 
 .open .hamburger-top{

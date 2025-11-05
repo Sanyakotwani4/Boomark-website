@@ -34,10 +34,11 @@ function navToggle(){
     menu.classList.toggle('hidden');
     menu.classList.toggle('flex');
     if(menu.classList.contains('flex')){
-        logo.setAttribute('src' , './images/logo-bookmark-footer.svg');
+        logo.setAttribute('src' , 'images/logo-bookmark-footer.svg');
+       
     }else{
         
-        logo.setAttribute('src' , './images/logo-bookmark.svg');
+        logo.setAttribute('src' , 'images/logo-bookmark.svg');
     }
 
  
